@@ -20,11 +20,13 @@ PCBs act as the foundational component inside almost all modern electronics, fro
 5. Improve inspection accuracy and consistency while minimizing human error.
 6. Reduce inspection time and manufacturing costs through AI-based automation.
 7. Provide a low-cost, portable, and scalable solution that can be easily integrated into industrial production lines.
+   
 **TECHNOLOGIES:**
 Python
 YOLOv8n
 Flutter
 Android Studio
+
 **Team Members:**
 Animireddy Teja 
 Chaganti Ellari Daneswari Devi

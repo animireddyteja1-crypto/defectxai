@@ -1,4 +1,4 @@
-                                     DEFECTX AI
+                                                               DEFECTX AI
 
 PROBLEM STATEMENT:
 INDUSTRIAL CRACK INSPECTION SYSTEM- Develop an automated inspection system to detect, classify, and count cracks and scratches on the surfaces of finished materials in an industrial setting.

@@ -109,16 +109,16 @@ The interface is designed for ease of use by manufacturing operators.
 
 The project utilizes the following technologies:
 
-| Library | Purpose |
-|----------|---------|
-| Python | Programming Language |
-| Ultralytics | YOLOv8 Framework |
-| OpenCV | Image Processing |
-| NumPy | Numerical Operations |
-| Matplotlib | Result Visualization |
-| Pillow (PIL) | Image Handling |
-| ONNX | Model Export |
-| ONNX Runtime | Edge Inference |
+| Library     |       Purpose         |
+|-------------|-----------------------|
+| Python      |  Programming Language |
+| Ultralytics |  YOLOv8 Framework     |
+| OpenCV      |  Image Processing     |
+| NumPy       |  Numerical Operations |
+| Matplotlib  |  Result Visualization |
+| Pillow (PIL)|  Image Handling       |
+| ONNX        |  Model Export         |
+| ONNX Runtime|  Edge Inference       |
 
 ---
 
@@ -126,15 +126,16 @@ The project utilizes the following technologies:
 
 The system will be validated using the following criteria:
 
-| Test Case | Expected Outcome |
-|------------|------------------|
-| Load PCB Image | Image loads successfully |
-| Detect Defects | Correct defects are identified |
-| Classify Defects | Correct class labels displayed |
-| Bounding Box Generation | Accurate localization |
-| Defect Count | Correct number of detected defects |
-| Invalid Image | Appropriate error message |
-| Multiple Defects | All defects detected and classified |
+| **Test Case**               | **Expected Outcome**                                                  |
+| :-------------------------- | :-------------------------------------------------------------------- |
+| **Load PCB Image**          | Image loads successfully.                                             |
+| **Detect Defects**          | Correct defects are identified accurately.                            |
+| **Classify Defects**        | Correct defect class labels are displayed.                            |
+| **Bounding Box Generation** | Defects are accurately localized with bounding boxes.                 |
+| **Defect Count**            | Correct number of detected defects is displayed.                      |
+| **Invalid Image**           | Appropriate error message is shown for unsupported or invalid images. |
+| **Multiple Defects**        | All defects are detected, classified, and counted correctly.          |
+
 
 ---
 

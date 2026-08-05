@@ -1,0 +1,185 @@
+# AI-Based PCB Defect Detection Using YOLOv8 and Edge AI
+
+## Phase 2 – Detailed Design
+
+---
+
+# Project Overview
+
+This project aims to automate Printed Circuit Board (PCB) defect inspection using Artificial Intelligence. The system employs the YOLOv8 Nano object detection model to identify multiple PCB defect types from images, providing accurate localization and classification for industrial quality control.
+
+---
+
+# Detailed Design
+
+The system follows a modular pipeline where each component performs a dedicated task, making the application easy to develop, test, and maintain.
+
+### Workflow
+
+```
+PCB Image
+     │
+     ▼
+Image Preprocessing
+     │
+     ▼
+YOLOv8 Nano Detection Model
+     │
+     ▼
+Defect Localization
+     │
+     ▼
+Defect Classification
+     │
+     ▼
+Visualization & Result Generation
+```
+
+---
+
+# Modular Architecture
+
+The application is divided into independent modules:
+
+### Data Module
+- Loads training and testing datasets.
+- Performs image preprocessing.
+- Reads annotation files.
+
+### Model Module
+- Initializes the YOLOv8 Nano model.
+- Handles model training and inference.
+- Loads trained weights when available.
+
+### Prediction Module
+- Performs object detection on new PCB images.
+- Generates bounding boxes, confidence scores, and defect classes.
+
+### Utility Module
+- Image visualization.
+- Result formatting.
+- Performance metrics.
+- File management.
+
+---
+
+# Security Considerations
+
+- Only authorized datasets are used for training.
+- Input image validation prevents unsupported file formats.
+- No sensitive user data is collected or stored.
+- Model files are stored locally to prevent unauthorized modification.
+- Future deployments can include user authentication and secure model access.
+
+---
+
+# Scalability
+
+The proposed architecture is designed to support future expansion.
+
+Possible enhancements include:
+
+- Integration with industrial cameras.
+- Real-time conveyor belt inspection.
+- Cloud-based monitoring dashboards.
+- Edge deployment on Raspberry Pi and NVIDIA Jetson.
+- Support for additional PCB defect categories.
+- Batch processing of multiple PCB images.
+
+---
+
+# User Interface Design
+
+The proposed user interface includes:
+
+- Image upload option
+- PCB image preview
+- Real-time defect visualization
+- Bounding box display
+- Defect class labels
+- Confidence scores
+- Total defect count
+- Inspection status
+
+The interface is designed for ease of use by manufacturing operators.
+
+---
+
+# Third-Party Libraries
+
+The project utilizes the following technologies:
+
+| Library | Purpose |
+|----------|---------|
+| Python | Programming Language |
+| Ultralytics | YOLOv8 Framework |
+| OpenCV | Image Processing |
+| NumPy | Numerical Operations |
+| Matplotlib | Result Visualization |
+| Pillow (PIL) | Image Handling |
+| ONNX | Model Export |
+| ONNX Runtime | Edge Inference |
+
+---
+
+# Acceptance Test Plan
+
+The system will be validated using the following criteria:
+
+| Test Case | Expected Outcome |
+|------------|------------------|
+| Load PCB Image | Image loads successfully |
+| Detect Defects | Correct defects are identified |
+| Classify Defects | Correct class labels displayed |
+| Bounding Box Generation | Accurate localization |
+| Defect Count | Correct number of detected defects |
+| Invalid Image | Appropriate error message |
+| Multiple Defects | All defects detected and classified |
+
+---
+
+# Documentation
+
+The repository contains the following design documents:
+
+```
+docs/
+├── DetailedDesign.pdf
+├── Architecture.pdf
+├── Dataset.pdf
+├── UI_Design.pdf
+├── AcceptanceTestPlan.pdf
+```
+
+---
+
+# Project Structure
+
+```
+PCB-Defect-Detection/
+│
+├── README.md
+├── docs/
+├── design/
+├── dataset/
+├── ui/
+├── requirements.txt
+└── src/
+    ├── train.py
+    ├── predict.py
+    ├── model.py
+    └── utils.py
+```
+
+---
+
+# Current Status
+
+- Detailed system design completed.
+- Modular architecture defined.
+- Dataset prepared.
+- Software modules designed.
+- User interface planned.
+- Acceptance test plan prepared.
+
+Implementation and trained models will be added in subsequent phases.

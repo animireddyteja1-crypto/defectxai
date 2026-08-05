@@ -23,14 +23,22 @@ PCBs act as the foundational component inside almost all modern electronics, fro
    
 **TECHNOLOGIES:**
 Python
+
 YOLOv8n
+
 Flutter
+
 Android Studio
 
 **Team Members:**
 Animireddy Teja 
+
 Chaganti Ellari Daneswari Devi
+
 Kotla Nageswari
+
 Divya Durga Parvathi Patamsetti
+
 Sravya Lakshmi Tulasi Valluri
+
 setin a correct order

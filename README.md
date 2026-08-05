@@ -1,33 +1,54 @@
-                                                              
-# INDUSTRIAL CRACK INSPECTION SYSTEM- Develop an automated inspection system to detect, classify, and count cracks and scratches on the surfaces of finished materials in an industrial setting.
-##**PROBLEM STATEMENT:**
-INDUSTRIAL CRACK INSPECTION SYSTEM- Develop an automated inspection system to detect, classify, and count cracks and scratches on the surfaces of finished materials in an industrial setting.
+Industrial Crack Inspection System
+AI-Based PCB Defect Detection and Inspection System
+1. Problem Statement
 
-**IMPORTANCE OF PROBLEM STATEMENT**:
-Improves product quality by detecting manufacturing defects accurately before products reach customers.
-Reduces inspection time and human errors through AI-based automated quality inspection.
+Develop an automated inspection system to detect, classify, localize, and count cracks, scratches, and PCB manufacturing defects on finished products using Artificial Intelligence. The system should perform real-time inspection with high accuracy, reducing manual effort and improving manufacturing quality.
+
+2. Why We Chose PCB as the Example?
+
+Printed Circuit Boards (PCBs) are the backbone of modern electronic devices, including smartphones, laptops, automobiles, medical equipment, and industrial control systems.
+
+We selected PCB inspection because:
+
+PCB manufacturing requires extremely high precision.
+Tiny defects are difficult to detect consistently through manual inspection.
+Even microscopic defects can cause complete device failure.
+AI-based computer vision can detect defects faster and more accurately than human inspectors.
+PCB inspection is a practical real-world industrial application of AI.
+3. Importance of the Problem Statement
+
+An automated AI inspection system provides several industrial benefits:
+
+Improves product quality by detecting manufacturing defects before products reach customers.
+Reduces inspection time and minimizes human errors through AI-based automation.
 Detects, classifies, localizes, and counts multiple defects in real time with high accuracy.
 Reduces manufacturing costs by minimizing rework, scrap, warranty claims, and product recalls.
-Why did we choose PCB as the example?
-The manufacturing process demands high-precision inspection that human eyes cannot reliably handle.
-Tiny defects like short circuits and pin holes make this a perfect real-world problem for AI technology to solve.
-PCBs act as the foundational component inside almost all modern electronics, from smartphones to cars.
-**#OBJECTIVES:**
-1. Develop an automated PCB defect detection system using YOLOv8 to reduce manual inspection.
-2. Detect and classify multiple PCB defect types such as open circuit, short circuit, mousebite, spur, pin-hole, and spurious copper.
-3. Count the total number of defects present on each PCB for quality assessment.
-4. Provide real-time inspection using a USB camera and Raspberry Pi for edge deployment.
-5. Improve inspection accuracy and consistency while minimizing human error.
-6. Reduce inspection time and manufacturing costs through AI-based automation.
-7. Provide a low-cost, portable, and scalable solution that can be easily integrated into industrial production lines.
-**TECHNOLOGIES:**
-Python
-YOLOv8n
-Flutter
-Android Studio
-**Team Members:**
-Animireddy Teja 
+Ensures consistent inspection quality throughout the production process.
+4. Objectives
+Develop an automated PCB defect detection system using YOLOv8n to replace manual inspection.
+Detect and classify multiple PCB defects, including:
+Open Circuit
+Short Circuit
+Mouse Bite
+Spur
+Pin Hole
+Spurious Copper
+Count the total number of detected defects on each PCB for quality assessment.
+Perform real-time inspection using a USB camera integrated with a Raspberry Pi for edge deployment.
+Improve inspection accuracy and consistency while minimizing human error.
+Reduce inspection time and manufacturing costs through AI-based automation.
+Develop a low-cost, portable, and scalable solution that can be integrated into industrial production lines.
+5. Technologies Used
+Programming Language: Python
+AI Model: YOLOv8n
+Computer Vision: OpenCV
+Edge Device: Raspberry Pi
+Camera: USB Camera
+Mobile Application: Flutter
+Development Environment: Android Studio
+6. Team Members
+Animireddy Teja
 Chaganti Ellari Daneswari Devi
 Kotla Nageswari
-Divya Durga Parvathi Patamsetti
-Sravya Lakshmi Tulasi Valluri
+Patamsetti Divya Durga Parvathi
+Valluri Sravya Lakshmi Tulasi

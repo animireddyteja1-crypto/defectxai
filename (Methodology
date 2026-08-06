@@ -1,0 +1,54 @@
+# PCB Defect Detection using YOLOv8( Methodology)
+
+## Problem Statement
+
+Manual PCB inspection is slow, expensive and error-prone.
+
+## Proposed Solution
+
+Develop an AI-based automatic PCB defect detection system using YOLOv8.
+
+## Features
+
+- Detects six PCB defects
+- Real-time detection
+- Lightweight YOLOv8n model
+- ONNX deployment support
+
+## Dataset
+
+DeepPCB Dataset
+
+Classes
+
+- Open Circuit
+- Short
+- Mouse Bite
+- Spur
+- Pin Hole
+- Spurious Copper
+
+## Project Structure
+
+(folder tree)
+
+## Installation
+
+pip install -r requirements.txt
+
+## Training
+
+python src/train.py
+
+## Prediction
+
+python src/predict.py
+
+## Results
+
+mAP50 : 96%
+
+Precision : 95%
+
+Recall : 94%
+

@@ -12,6 +12,7 @@ Why did we choose PCB as the example?
 The manufacturing process demands high-precision inspection that human eyes cannot reliably handle.
 Tiny defects like short circuits and pin holes make this a perfect real-world problem for AI technology to solve.
 PCBs act as the foundational component inside almost all modern electronics, from smartphones to cars.
+
 **#OBJECTIVES:**
 1. Develop an automated PCB defect detection system using YOLOv8 to reduce manual inspection.
 2. Detect and classify multiple PCB defect types such as open circuit, short circuit, mousebite, spur, pin-hole, and spurious copper.
